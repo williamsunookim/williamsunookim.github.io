@@ -33,6 +33,10 @@
     figure{margin:0}
     footer{border-top:1px solid var(--border); padding:2rem 0; color:var(--muted)}
     @media (max-width:640px){ .nav nav{display:none} }
+
+    .project-title{font-size:1.5rem; line-height:1.25; margin:.5rem 0 0}
+    .project-meta{font-weight:600; margin:.25rem 0 .75rem}
+    .project-desc{margin-top:.25rem}
   </style>
 </head>
 <body>
@@ -83,10 +87,17 @@
       <div class="grid">
         <article class="card">
           <figure>
-            <img class="thumb" src="assets/project1.gif" alt="Dexterous Pick-and-Place demo" loading="lazy">
-          </figure>
-          <p><strong>(Fake)Dexterous Pick-and-Place</strong></p>
-          <p class="muted">Vision-language-conditioned policy; improved success from 62% → 83% on cluttered tabletops.</p>
+            <img class="thumb" src="assets/baymax.gif" alt="Baymax-like soft inflatable robot skin based on ToF sensors" loading="lazy">
+            </figure>
+
+            <h3 class="project-title">Baymax-like soft inflatable robot skin based on ToF sensors</h3>
+            <p class="project-meta">May 2025 – Current, at <strong>Interactive Robot Lab</strong>, <strong>DGIST</strong></p>
+
+            <ul class="list project-desc">
+                <li>Baymax-like soft whole-body robot skin is developed.</li>
+                <li>Time-of-flight (ToF) sensors are sophisticatedly arranged to achive a large and occlusion-free sesing area.</li>
+                <li>Measurement data are visualized in real-time by using Isaac sim.</li>
+            </ul>
           <p><a href="#">Code</a> · <a href="#">Demo</a> · <a href="#">Report</a></p>
         </article>
         <article class="card">
