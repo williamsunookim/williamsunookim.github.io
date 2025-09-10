@@ -64,7 +64,7 @@
     <!-- ===== BELOW: TEXT CONTENT ===== -->
     <section id="about" class="section">
       <h2>About</h2>
-      <p>I'm an <strong>Undergraduate Research Intern</strong> at <strong>Interactive Robot Lab</strong>, <strong>DGIST</strong>. I work on <em>Physical AI</em>: embodied intelligence, robot learning, and vision + control. I aim to build agents that can understand and act in the physical world.</p>
+      <p>I'm an <strong>Undergraduate Research Intern</strong> at <strong><a href="https://www.kspark.me/home">Interactive Robot Lab</a></strong>, <strong>DGIST</strong>. I work on <em>Physical AI</em>: embodied intelligence, robot learning, and robot perception. I aim to build agents that can understand and act in the physical world.</p>
       <p class="muted">
         <a href="mailto:koreasunoo@dgist.ac.kr">Email</a> ·
         <a href="https://github.com/williamsunookim" target="_blank" rel="noopener">GitHub</a> ·
@@ -75,56 +75,103 @@
     <section id="research" class="section">
       <h2>Research Focus</h2>
       <ul class="list">
-        <li>Embodied intelligence: perception–action loops and affordances.</li>
-        <li>Robot learning: RL/IL for manipulation and locomotion; sim-to-real.</li>
+        <li>Embodied intelligence: perception-action loops and affordances.</li>
         <li>Multimodal grounding for control and planning.</li>
         <li>Safety & evaluation for real-world deployment.</li>
       </ul>
     </section>
 
     <section id="projects" class="section">
-      <h2>Selected Projects</h2>
+      <!-- <h2>Selected Projects</h2> -->
+
+      <!-- Lab Projects -->
+      <h3>Lab Projects</h3>
       <div class="grid">
         <article class="card">
           <figure>
             <img class="thumb" src="assets/baymax.gif" alt="Baymax-like soft inflatable robot skin based on ToF sensors" loading="lazy">
-            </figure>
-
-            <h3 class="project-title">Baymax-like soft inflatable robot skin based on ToF sensors</h3>
-            <p class="project-meta">May 2025 – Current, at <strong>Interactive Robot Lab</strong>, <strong>DGIST</strong></p>
-
-            <ul class="list project-desc">
-                <li>Baymax-like soft whole-body robot skin is developed.</li>
-                <li>Time-of-flight (ToF) sensors are sophisticatedly arranged to achive a large and occlusion-free sesing area.</li>
-                <li>Measurement data are visualized in real-time by using Isaac sim.</li>
-            </ul>
-          <p><a href="#">Code</a> · <a href="#">Demo</a> · <a href="#">Report</a></p>
+          </figure>
+          <h3 class="project-title">Baymax-like soft inflatable robot skin based on ToF sensors</h3>
+          <p class="project-meta">May 2025 – Current, at <strong><a href="https://www.kspark.me/home">Interactive Robot Lab</a></strong>, <strong>DGIST</strong></p>
+          <ul class="list project-desc">
+            <li>Baymax-like soft whole-body robot skin is developed.</li>
+            <li>Time-of-flight (ToF) sensors are sophisticatedly arranged to achieve a large and occlusion-free sensing area.</li>
+            <li>Measurement data are visualized in real-time by using Isaac sim.</li>
+          </ul>
+          <p>
+            <!-- <a href="#">Code</a> ·  -->
+            <a href="#">Demo</a>  
+            <!-- <a href="#">Report</a> -->
+          </p>
         </article>
+      </div>
+
+      <!-- Personal Projects -->
+      <h3>Personal Projects</h3>
+      <div class="grid">
         <article class="card">
           <figure>
-            <img class="thumb" src="assets/project2.gif" alt="Sim-to-Real Quadruped demo" loading="lazy">
+            <img class="thumb" src="assets/teleop.gif" alt="Robot Arm Teleoperation demo" loading="lazy">
           </figure>
-          <p><strong>(Fake)Sim-to-Real Quadruped</strong></p>
-          <p class="muted">Latent world models + domain randomization; reduced foot-slip by 28%.</p>
-          <p><a href="#">Code</a> · <a href="#">Poster</a></p>
+          <h3 class="project-title"><strong>Robot Arm Teleoperation</strong></h3>
+          <p class="project-meta">July 2025, at <strong>R.O.D</strong>, the Robot Club at <strong>DGIST</strong></p>
+          <p class="muted">Each arm uses six STS3215 servo motors. The follower arm tracks the joint states of the leader arm whenever the user moves it.</p>
+
+          <p>
+            <a href="https://github.com/TheRobotStudio/SO-ARM100/tree/main">(Open-Source) Code</a>
+             <!-- ·  -->
+            <!-- <a href="#">Poster</a> -->
+          </p>
+        </article>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <figure>
+            <img class="thumb" src="assets/robot_dog.gif" alt="Robot Dog demo" loading="lazy">
+          </figure>
+          <h3 class="project-title">8DOF Robot Dog</h3>
+          <p class="project-meta">Sep 2025 - Current, at <strong>R.O.D</strong>, the Robot Club at <strong>DGIST</strong></p>
+          <p class="muted">Using MG90S for motors, and use mpu6050 for balancing.</p>
+          <p>
+            <!-- <a href="#">(Open-Source) Code</a> -->
+             <!-- ·  -->
+            <!-- <a href="#">Poster</a> -->
+          </p>
+        </article>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <figure>
+            <img class="thumb" src="assets/robot_hand.gif" alt="Robot Hand demo" loading="lazy">
+          </figure>
+          <h3 class="project-title">Robot hand</h3>
+          <p class="project-meta">Sep 2025 - Current, at <strong>R.O.D</strong>, the Robot Club at <strong>DGIST</strong></p>
+          <p class="muted">Each of the four fingers is actuated by two SCS0009 motors, for a total of eight.</p>
+          <p>
+            <!-- <a href="#">(Open-Source) Code</a> -->
+             <!-- ·  -->
+            <!-- <a href="#">Poster</a> -->
+          </p>
         </article>
       </div>
     </section>
 
+
     <section id="experience" class="section">
       <h2>Experience</h2>
-      <p><strong>Undergraduate Research Intern — Interactive Robot Lab, DGIST</strong> <span class="muted">Janurary, 2025 – Present • Daegu, South Korea</span></p>
+      <p><strong>Undergraduate Research Intern — <a href="https://www.kspark.me/home">Interactive Robot Lab</a>, DGIST</strong> <span class="muted">Janurary, 2025 – Present • Daegu, South Korea</span></p>
       <ul class="list">
-        <li>Robot learning experiments (manipulation, multimodal perception).</li>
+        <!-- <li>Robot learning experiments (manipulation, multimodal perception).</li>
         <li>Reproducible training & evaluation on real hardware.</li>
-        <li>Team codebase maintenance and documentation.</li>
+        <li>Team codebase maintenance and documentation.</li> -->
       </ul>
     </section>
 
     <section id="publications" class="section">
       <h2>Publications / Writing</h2>
       <ul class="list">
-        <li><strong>(Fake)William Sunoo Kim</strong>, [Coauthors]. "<em>[Title]</em>". [Venue], [Year]. <a href="#">paper</a> · <a href="#">code</a> · <a href="#">video</a></li>
+        <!-- <li><strong>(Fake)William Sunoo Kim</strong>, [Coauthors]. "<em>[Title]</em>". [Venue], [Year]. <a href="#">paper</a> · <a href="#">code</a> · <a href="#">video</a></li> -->
+         Not yet 😭
       </ul>
     </section>
 
